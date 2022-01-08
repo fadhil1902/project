@@ -66,7 +66,7 @@
   text-align: center;
 }
 .wrapper ul li{
-  margin: 15px 0;
+  margin: 15px 0; 
 }
 .wrapper ul li a{
   color: none;
@@ -260,9 +260,7 @@ input[type="checkbox"]{
   margin-right: auto;
   position: block;
   border: 2px solid #ADD8E6 ;
-
-
-}
+} 
 
 /*kantin*/
 .wk2 img {
@@ -275,49 +273,10 @@ input[type="checkbox"]{
   border: 2px solid #ADD8E6 ;
  }
 
- .judul {
-    color: #ADD8E6 ;
-    text-align: center;
-  } 
-  
-  .sejarah {
-    padding: 40px 0;  
-  }
-  
-  .sejarah .title{
-    font-size: 35px;
-    font-weight: 700;
-  }
-  
-  .sejarah p{
-    padding-top: 20px;
-    text-align: justify;
-  }
-  
-  .title{
-    color: #ADD8E6 ;
-    padding: 0 12% ;
-  }
-  
-  .pencapaian{
-    color: #ADD8E6 ;
-  }
-  
-  .sjrh{
-    margin-bottom: 10px;
-    padding: 0 12% ;
-  }
-
-  .container1{
-    background: rgb(30, 33, 37);
-    width: auto;
-  }
-
-
 /*responsif*/
 
 /*beranda*/
-@media only screen and (min-width: 420px) {
+@media screen and (min-width: 420px) {
   .wk img {
       width: 420px;
       height: 296px;
